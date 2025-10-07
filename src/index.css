@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "tailwindcss";
-@plugin "daisyui";
 @plugin "daisyui" {
   themes: light --prefersdark, dark;
+}
+a.active {
+  color: #9f62f2;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #9f62f2;
+  text-underline-offset: 4px;
+}
+* {
+  font-family: "Inter", sans-serif;
 }

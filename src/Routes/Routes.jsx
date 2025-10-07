@@ -1,14 +1,16 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "./../Layout/MainLayout";
 import Home from "../Pages/Home";
-import AppDetails from "./../Pages/AppDetails";
 import AllApps from "./../Pages/AllApps";
+import AppDetails from "./../Pages/AppDetails";
 import InstallApp from "./../Pages/InstallApp";
-
+import Error from "./../Pages/Error";
+import "../../src/index.css";
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
