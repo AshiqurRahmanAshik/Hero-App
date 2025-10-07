@@ -2,7 +2,9 @@ import React from "react";
 import { NavLink } from "react-router";
 import { Link } from "react-router";
 import logo from "/logo.png";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaHome } from "react-icons/fa";
+import { RiAppsFill } from "react-icons/ri";
+import { MdInstallMobile } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -52,15 +54,24 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 gap-2">
             <li>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink to="/home">
+                <FaHome />
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/apps">Apps</NavLink>
+              <NavLink to="/apps">
+                <RiAppsFill />
+                Apps
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/install-apps">Installation</NavLink>
+              <NavLink to="/install-apps">
+                <MdInstallMobile />
+                Installation
+              </NavLink>
             </li>
           </ul>
         </div>
