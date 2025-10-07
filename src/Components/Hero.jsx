@@ -6,7 +6,7 @@ import heroImage from "/hero.png";
 const Hero = () => {
   return (
     <div>
-      <div className="py-10 md:py-20 ">
+      <div className="pt-10 md:pt-20 ">
         <div className="text-center px-1 space-y-3 md:space-y-5">
           <h1 className="text-3xl md:text-5xl font-bold">
             We Build <br />
@@ -33,7 +33,7 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex justify-center items-center pt-5 md:pt-10">
-          <img src={heroImage} alt="mobileApp" />
+          <img src={heroImage} alt="mobileApp" className="px-5" />
         </div>
       </div>
     </div>
