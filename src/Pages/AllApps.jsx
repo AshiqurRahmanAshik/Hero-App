@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "./AppCard";
+import NoAppFound from "../Components/NoAppFound";
 
 const AllApps = () => {
   const { apps } = useApps();
@@ -9,6 +10,7 @@ const AllApps = () => {
   const searchedApps = term
     ? apps.filter((app) => app.companyName.toLowerCase().includes(term))
     : apps;
+  if (!searchedApps.length) return <NoAppFound />;
   return (
     <div>
       <div className="text-center pt-10">
