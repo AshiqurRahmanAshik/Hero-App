@@ -48,10 +48,7 @@ const Footer = () => {
       </nav>
       <aside>
         <hr className="border-1 w-full bg-white my-4" />
-        <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by Hero
-          App Industries Ltd
-        </p>
+        <p>Copyright © {new Date().getFullYear()} - All right reserved.</p>
       </aside>
     </footer>
   );

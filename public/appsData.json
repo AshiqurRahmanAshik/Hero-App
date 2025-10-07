@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://example.com/images/app1.png",
+    "title": "TaskMaster",
+    "companyName": "Productive Co.",
+    "id": 1,
+    "description": "Organize your tasks efficiently and boost productivity.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app2.png",
+    "title": "FitLife",
+    "companyName": "HealthTech",
+    "id": 2,
+    "description": "Track workouts, diet, and health goals all in one place.",
+    "size": 60,
+    "reviews": 2500,
+    "ratingAvg": 4.2,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1120 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app3.png",
+    "title": "BudgetBuddy",
+    "companyName": "Finance Solutions",
+    "id": 3,
+    "description": "Manage your personal finances with ease.",
+    "size": 35,
+    "reviews": 900,
+    "ratingAvg": 4.6,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 485 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app4.png",
+    "title": "PhotoMagic",
+    "companyName": "Creative Labs",
+    "id": 4,
+    "description": "Edit your photos with professional tools easily.",
+    "size": 80,
+    "reviews": 3200,
+    "ratingAvg": 4.4,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1330 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app5.png",
+    "title": "LearnLang",
+    "companyName": "EduTech",
+    "id": 5,
+    "description": "Learn new languages with fun and interactive lessons.",
+    "size": 55,
+    "reviews": 1800,
+    "ratingAvg": 4.3,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app6.png",
+    "title": "WeatherNow",
+    "companyName": "ClimateTech",
+    "id": 6,
+    "description": "Real-time weather updates and forecasts.",
+    "size": 25,
+    "reviews": 1400,
+    "ratingAvg": 4.0,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app7.png",
+    "title": "TravelMate",
+    "companyName": "Adventure Co.",
+    "id": 7,
+    "description": "Plan your trips and discover amazing places.",
+    "size": 70,
+    "reviews": 2000,
+    "ratingAvg": 4.7,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app8.png",
+    "title": "MeditateMind",
+    "companyName": "ZenApps",
+    "id": 8,
+    "description": "Guided meditation and mindfulness exercises.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 625 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app9.png",
+    "title": "RecipeBox",
+    "companyName": "Foodie Labs",
+    "id": 9,
+    "description": "Find and save your favorite recipes easily.",
+    "size": 50,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 460 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app10.png",
+    "title": "NewsFlash",
+    "companyName": "MediaTech",
+    "id": 10,
+    "description": "Stay updated with the latest news from around the world.",
+    "size": 30,
+    "reviews": 2200,
+    "ratingAvg": 4.1,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 650 },
+      { "name": "5 star", "count": 840 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app11.png",
+    "title": "MusicWave",
+    "companyName": "SoundLabs",
+    "id": 11,
+    "description": "Stream your favorite songs and playlists anytime.",
+    "size": 90,
+    "reviews": 3300,
+    "ratingAvg": 4.6,
+    "downloads": "20M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app12.png",
+    "title": "ShopEase",
+    "companyName": "Ecom Solutions",
+    "id": 12,
+    "description": "Your one-stop online shopping app.",
+    "size": 75,
+    "reviews": 2800,
+    "ratingAvg": 4.3,
+    "downloads": "13M",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1310 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app13.png",
+    "title": "CryptoTrack",
+    "companyName": "FinTech Innovations",
+    "id": 13,
+    "description": "Track cryptocurrency prices and market trends in real-time.",
+    "size": 65,
+    "reviews": 1600,
+    "ratingAvg": 4.4,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app14.png",
+    "title": "FitMeal",
+    "companyName": "HealthTech",
+    "id": 14,
+    "description": "Personalized meal plans to reach your fitness goals.",
+    "size": 50,
+    "reviews": 1250,
+    "ratingAvg": 4.5,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app15.png",
+    "title": "DailyQuotes",
+    "companyName": "InspireTech",
+    "id": 15,
+    "description": "Get daily motivational and inspirational quotes.",
+    "size": 20,
+    "reviews": 800,
+    "ratingAvg": 4.2,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/app16.png",
+    "title": "SleepWell",
+    "companyName": "WellnessTech",
+    "id": 16,
+    "description": "Track and improve your sleep patterns for better health.",
+    "size": 30,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 480 }
+    ]
+  }
+]

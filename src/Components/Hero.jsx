@@ -2,6 +2,7 @@ import React from "react";
 import { BiLogoPlayStore } from "react-icons/bi";
 import { FaAppStoreIos } from "react-icons/fa6";
 import heroImage from "/hero.png";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -23,14 +24,20 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex gap-5 justify-center py-3 md:py-5">
-          <button className="btn btn-outline">
+          <Link
+            to="https://play.google.com/store/apps?hl=en"
+            className="btn btn-outline"
+          >
             <BiLogoPlayStore />
             Google Play
-          </button>
-          <button className="btn btn-outline">
+          </Link>
+          <Link
+            to="https://play.google.com/store/apps?hl=en"
+            className="btn btn-outline"
+          >
             <FaAppStoreIos />
             App Store
-          </button>
+          </Link>
         </div>
         <div className="flex justify-center items-center pt-5 md:pt-10">
           <img src={heroImage} alt="mobileApp" className="px-5" />
