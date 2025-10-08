@@ -12,14 +12,12 @@ import {
   YAxis,
 } from "recharts";
 import { IoSnowSharp } from "react-icons/io5";
+import { toast, ToastContainer } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
   const [install, setInstall] = useState("Install Now");
   const { apps, loading } = useApps();
-  const handleInstallBtn = () => {
-    setInstall("Installed");
-  };
 
   const findApp = apps?.find((app) => app.id === Number(id));
   console.log(findApp);
@@ -40,9 +38,10 @@ const AppDetails = () => {
     description,
     ratings,
   } = findApp;
-
-  console.log(install);
-
+  const handleInstallBtn = () => {
+    setInstall("Installed");
+    toast(`${title} is added`);
+  };
   return (
     <div className="w-11/12 mx-auto py-10">
       <div className="flex flex-col md:flex-row items-center gap-10 shadow-sm rounded-2xl p-6">
@@ -104,8 +103,8 @@ const AppDetails = () => {
         <h2 className="font-bold text-xl">Description</h2>
         <p>{description}</p>
       </div>
+      <ToastContainer />;
     </div>
   );
 };
-
 export default AppDetails;
