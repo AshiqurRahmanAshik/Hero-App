@@ -4,16 +4,15 @@ import useApps from "./../Hooks/useApps";
 import { FaDownload, FaRegStar } from "react-icons/fa";
 import { MdReviews } from "react-icons/md";
 import {
-  Area,
   Bar,
   ComposedChart,
   ResponsiveContainer,
   XAxis,
   YAxis,
 } from "recharts";
-import { IoSnowSharp } from "react-icons/io5";
 import { toast, ToastContainer } from "react-toastify";
 import AppNotFound from "./AppNotFound";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -23,8 +22,7 @@ const AppDetails = () => {
   const findApp = apps?.find((app) => app.id === Number(id));
   console.log(findApp);
 
-  if (loading)
-    return <p className="text-center py-10 text-gray-600">Loading...</p>;
+  if (loading) return <LoadingSpinner />;
   if (!findApp) return <AppNotFound />;
 
   const {
@@ -34,13 +32,23 @@ const AppDetails = () => {
     downloads,
     ratingAvg,
     reviews,
-    size,
     description,
     ratings,
   } = findApp;
   const handleInstallBtn = () => {
     setInstall("Installed");
-    toast(`${title} is added`);
+    const existingList = JSON.parse(localStorage.getItem("wishlist"));
+    let updatedList = [];
+    if (existingList) {
+      const isDuplicate = existingList.some((p) => p.id === findApp.id);
+      isDuplicate
+        ? toast(`${title} is already added`)
+        : toast(`${title} is installed successfully.`);
+      updatedList = [...existingList, findApp];
+    } else {
+      updatedList.push(findApp);
+    }
+    localStorage.setItem("wishlist", JSON.stringify(updatedList));
   };
   return (
     <div className="w-11/12 mx-auto py-10">
@@ -103,7 +111,7 @@ const AppDetails = () => {
         <h2 className="font-bold text-xl">Description</h2>
         <p>{description}</p>
       </div>
-      <ToastContainer />;
+      <ToastContainer />
     </div>
   );
 };

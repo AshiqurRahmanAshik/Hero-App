@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "./AppCard";
 import NoAppFound from "../Components/NoAppFound";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const AllApps = () => {
-  const { apps } = useApps();
   const [search, setSearch] = useState("");
+  const { apps, loading } = useApps();
+  if (loading) return <LoadingSpinner />;
   const term = search.trim().toLowerCase();
   const searchedApps = term
     ? apps.filter((app) => app.title.toLowerCase().includes(term))

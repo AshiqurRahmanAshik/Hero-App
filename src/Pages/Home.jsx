@@ -4,9 +4,11 @@ import Stats from "../Components/Stats";
 import useApps from "../Hooks/useApps";
 import AppCard from "./AppCard";
 import { Link } from "react-router";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 const Home = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
+  if (loading) return <LoadingSpinner />;
   const trendingApps = apps.slice(0, 8);
   console.log(trendingApps);
 

@@ -12,7 +12,7 @@ const AppNotFound = () => {
           to="/"
           className="btn bg-gradient-to-br px-8 from-[#632EE3] to-[#9F62F2] opacity-80 text-white"
         >
-          Go Back!
+          Back to Home!
         </Link>
       </div>
     </div>
