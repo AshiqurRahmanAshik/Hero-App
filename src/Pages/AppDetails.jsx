@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "./../Hooks/useApps";
 import { FaDownload, FaRegStar } from "react-icons/fa";
@@ -11,10 +11,15 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { IoSnowSharp } from "react-icons/io5";
 
 const AppDetails = () => {
   const { id } = useParams();
+  const [install, setInstall] = useState("Install Now");
   const { apps, loading } = useApps();
+  const handleInstallBtn = () => {
+    setInstall("Installed");
+  };
 
   const findApp = apps?.find((app) => app.id === Number(id));
   console.log(findApp);
@@ -35,6 +40,8 @@ const AppDetails = () => {
     description,
     ratings,
   } = findApp;
+
+  console.log(install);
 
   return (
     <div className="w-11/12 mx-auto py-10">
@@ -73,8 +80,11 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <button className="mt-6 bg-[#00D390] hover:bg-[#05b57a] text-white font-semibold px-6 py-2 rounded-lg">
-            Install Now ({size} MB)
+          <button
+            onClick={handleInstallBtn}
+            className="mt-6 bg-[#00D390] hover:bg-[#05b57a] text-white font-semibold px-6 py-2 rounded-lg"
+          >
+            {install}
           </button>
         </div>
       </div>
@@ -85,7 +95,7 @@ const AppDetails = () => {
             <ComposedChart layout="vertical" data={ratings}>
               <XAxis type="number" />
               <YAxis dataKey="name" type="category" />
-              <Bar dataKey="count" barSize={20} fill="#FF8811" />
+              <Bar dataKey="count" barSize={20} fill="#00D390" />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
