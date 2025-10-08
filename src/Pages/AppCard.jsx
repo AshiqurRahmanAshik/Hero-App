@@ -3,7 +3,7 @@ import { FaDownload, FaRegStar } from "react-icons/fa";
 import { Link } from "react-router";
 
 const AppCard = ({ app }) => {
-  const { image, title, description, downloads, ratingAvg, id } = app;
+  const { image, title, downloads, ratingAvg, id } = app;
   return (
     <Link to={`/app-details/${id}`}>
       <div>
@@ -15,7 +15,6 @@ const AppCard = ({ app }) => {
           </div>
           <div>
             <h2 className="card-title">{title}</h2>
-            <p>{description}</p>
           </div>
           <div className="flex justify-between py-1">
             <p className="flex items-center gap-2 bg-gray-100 p-1 rounded text-green-600">
