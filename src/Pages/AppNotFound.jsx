@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
 import { Link } from "react-router";
+import appErrorImg from "/App-Error.png";
 
 const AppNotFound = () => {
   return (
     <div>
       <div className="flex flex-col items-center space-y-2 py-5">
+        <img src={appErrorImg} alt="" />
         <p className="font-bold text-2xl">App is not found you</p>
         <Link
           to="/"
