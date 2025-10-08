@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import useApps from "../Hooks/useApps";
 import LoadingSpinner from "../Components/LoadingSpinner";
+import { FaDownload, FaRegStar } from "react-icons/fa";
+import { MdReviews } from "react-icons/md";
 
 const InstallApp = () => {
   const { loading } = useApps();
@@ -50,7 +52,7 @@ const InstallApp = () => {
             value={sortOption}
             onChange={(e) => handleSort(e.target.value)}
           >
-            <option value="none">Sort by Size</option>
+            <option value="none">Sort By File Size</option>
             <option value="price-asc">Low → High</option>
             <option value="price-desc">High → Low</option>
           </select>
@@ -75,7 +77,20 @@ const InstallApp = () => {
                 <div className="card-body">
                   <h3 className="card-title">{p.title}</h3>
                   <p className="text-base-content/70">{p.companyName}</p>
-                  <p>{p.size} MB</p>
+                  <div className="flex gap-5">
+                    <p className="flex items-center justify-center gap-1">
+                      <FaDownload className="text-[#9F62F2]" />
+                      {p.size}
+                    </p>
+                    <p className="flex items-center justify-center gap-1">
+                      <FaRegStar className="text-[#9F62F2]" />
+                      {p.ratingAvg}
+                    </p>
+                    <p className="flex items-center justify-center gap-1">
+                      <MdReviews className="text-[#00D390]" />
+                      {p.reviews}
+                    </p>
+                  </div>
                 </div>
               </div>
 
