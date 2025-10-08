@@ -9,7 +9,7 @@ const Error = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex flex-col items-center space-y-2">
+      <div className="flex flex-col items-center space-y-2 py-5">
         {error.message}
         <img src={errorImg} alt="" />
         <p className="font-bold text-2xl">Oops, page not found!</p>

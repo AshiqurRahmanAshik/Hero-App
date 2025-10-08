@@ -13,6 +13,7 @@ import {
 } from "recharts";
 import { IoSnowSharp } from "react-icons/io5";
 import { toast, ToastContainer } from "react-toastify";
+import AppNotFound from "./AppNotFound";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -24,8 +25,7 @@ const AppDetails = () => {
 
   if (loading)
     return <p className="text-center py-10 text-gray-600">Loading...</p>;
-  if (!findApp)
-    return <p className="text-center py-10 text-red-500">App not found.</p>;
+  if (!findApp) return <AppNotFound />;
 
   const {
     image,

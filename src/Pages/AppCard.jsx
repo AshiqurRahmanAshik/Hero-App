@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const AppCard = ({ app }) => {
   const { image, title, downloads, ratingAvg, id } = app;
   return (
-    <Link to={`/app-details/${id}`}>
+    <Link to={`/apps/${id}`}>
       <div>
         <div className="card bg-base-100 shadow-sm p-5 border hover:scale-105 transition ease-in-out">
           <div className="card-body">
