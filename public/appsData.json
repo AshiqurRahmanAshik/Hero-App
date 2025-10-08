@@ -4,17 +4,17 @@
     "title": "TaskMaster",
     "companyName": "Productive Co.",
     "id": 1,
-    "description": "TaskMaster helps you organize your tasks efficiently and keep track of everything that matters. With intuitive task lists and priority settings, you can easily manage daily, weekly, or long-term goals. Set reminders and deadlines to ensure nothing is missed and stay on top of all your responsibilities. The app provides smart notifications so you are reminded of important tasks at the right time. TaskMaster also allows you to categorize tasks by projects or tags for better organization. You can track your progress visually with charts and summaries, helping you understand your productivity patterns. Collaborate with team members by sharing tasks and delegating responsibilities seamlessly. The app offers recurring tasks for routine activities, saving you time and effort. With customizable themes and layouts, TaskMaster adapts to your personal workflow. Experience a streamlined, efficient, and stress-free way to get things done with TaskMaster.TaskMaster integrates with calendars and email, keeping all your schedules synchronized. You can attach notes, files, or links to each task for a more comprehensive overview. The built-in search and filtering options allow quick access to important items at any time. Detailed analytics show which tasks take the most time, helping you optimize your day. Set milestones and achieve goals systematically while maintaining motivation. TaskMaster’s intuitive design reduces learning time, so you can start boosting productivity immediately. Notifications are non-intrusive yet effective, ensuring you never forget an important task. The app provides offline functionality, allowing you to manage tasks even without internet access. TaskMaster supports multiple devices, so your workflow stays continuous across smartphones and tablets. With secure cloud backup, your data is safe and retrievable anytime.TaskMaster also offers templates for common task types, making it easy to start new projects. Customize task priorities, colors, and labels to fit your style. Receive performance insights to celebrate accomplishments and identify areas for improvement. The app provides a simple way to track habits alongside tasks, promoting a balanced lifestyle. Sync with popular productivity tools and apps to create a unified workflow. TaskMaster encourages accountability by tracking completed tasks over time. The clean and user-friendly interface ensures smooth navigation throughout the app. Experience enhanced focus by minimizing distractions and keeping tasks organized. Whether you are a student, professional, or team leader, TaskMaster adapts to your needs and boosts efficiency effortlessly.",
+    "description": "TaskMaster helps you organize your tasks efficiently and keep track of everything that matters. With intuitive task lists and priority settings, you can easily manage daily, weekly, or long-term goals. Set reminders and deadlines to ensure nothing is missed and stay on top of all your responsibilities. The app provides smart notifications so you are reminded of important tasks at the right time. TaskMaster also allows you to categorize tasks by projects or tags for better organization. You can track your progress visually with charts and summaries, helping you understand your productivity patterns. Collaborate with team members by sharing tasks and delegating responsibilities seamlessly. The app offers recurring tasks for routine activities, saving you time and effort. With customizable themes and layouts, TaskMaster adapts to your personal workflow. Experience a streamlined, efficient, and stress-free way to get things done with TaskMaster. Stay motivated with daily productivity tips. Access advanced reports to refine your workflow. Connect with productivity communities inside the app. Discover shortcuts to save time. Unlock premium features for enhanced task management.",
     "size": 45,
     "reviews": 1200,
     "ratingAvg": 4.5,
     "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
+      { "name": "5 star", "count": 600 },
       { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 600 }
+      { "name": "3 star", "count": 120 },
+      { "name": "2 star", "count": 30 },
+      { "name": "1 star", "count": 50 }
     ]
   },
   {
@@ -22,17 +22,17 @@
     "title": "FitLife",
     "companyName": "Cool Fitness ",
     "id": 2,
-    "description": "Track workouts, diet, and health goals all in one place.",
+    "description": "Track workouts, diet, and health goals all in one place. Stay motivated with progress charts and goal reminders. Get personalized fitness tips based on your activity. Connect with friends for challenges and accountability. Access hundreds of exercise videos and routines. Monitor your heart rate and calorie intake for better results.",
     "size": 60,
     "reviews": 2500,
     "ratingAvg": 4.2,
     "downloads": "12M",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 80 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 1120 },
       { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1120 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 80 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -40,71 +40,71 @@
     "title": "BudgetBuddy",
     "companyName": "Finance Solutions",
     "id": 3,
-    "description": "Manage your personal finances with ease.",
+    "description": "Manage your personal finances with ease. Track income, expenses, and savings effortlessly. Set budget limits to avoid overspending. Visualize your spending habits with charts. Receive smart tips to improve financial health. Sync your bank accounts and credit cards securely. Get alerts for bills and subscriptions. Analyze trends to optimize spending. Create financial goals and milestones. Export reports for easy tracking.",
     "size": 35,
     "reviews": 900,
     "ratingAvg": 4.6,
     "downloads": "8M",
     "ratings": [
-      { "name": "1 star", "count": 20 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 80 },
+      { "name": "5 star", "count": 485 },
       { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 485 }
+      { "name": "3 star", "count": 80 },
+      { "name": "2 star", "count": 15 },
+      { "name": "1 star", "count": 20 }
     ]
   },
   {
-    "image": " https://i.ibb.co.com/gbBVcXsL/demo-app-4.webp",
+    "image": "https://i.ibb.co.com/gbBVcXsL/demo-app-4.webp",
     "title": "PhotoMagic",
     "companyName": "Creative Labs",
     "id": 4,
-    "description": "Edit your photos with professional tools easily.",
+    "description": "Edit your photos with professional tools easily. Apply filters, effects, and overlays. Crop and adjust images with precision. Create stunning collages and montages. Share your edited photos directly to social media. Enjoy AI-powered enhancements for faster editing. Explore creative templates for unique designs. Adjust lighting and colors seamlessly. Remove unwanted objects from photos. Save in multiple formats.",
     "size": 80,
     "reviews": 3200,
     "ratingAvg": 4.4,
     "downloads": "15M",
     "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 600 },
+      { "name": "5 star", "count": 1330 },
       { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 1330 }
+      { "name": "3 star", "count": 600 },
+      { "name": "2 star", "count": 120 },
+      { "name": "1 star", "count": 150 }
     ]
   },
   {
-    "image": "  https://i.ibb.co.com/VYcHsFSd/demo-app-5.webp",
+    "image": "https://i.ibb.co.com/VYcHsFSd/demo-app-5.webp",
     "title": "LearnLang",
     "companyName": "EduTech",
     "id": 5,
-    "description": "Learn new languages with fun and interactive lessons.",
+    "description": "Learn new languages with fun and interactive lessons. Track your progress and mastery level. Practice with quizzes and exercises. Engage with native speakers for real-world practice. Unlock achievements as you advance. Access audio and video lessons for immersive learning.",
     "size": 55,
     "reviews": 1800,
     "ratingAvg": 4.3,
     "downloads": "7M",
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 760 },
       { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 760 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 60 },
+      { "name": "1 star", "count": 80 }
     ]
   },
   {
-    "image": "https://i.ibb.co.com/609QLCb1/demo-app-6.webp,",
+    "image": "https://i.ibb.co.com/609QLCb1/demo-app-6.webp",
     "title": "WeatherNow",
     "companyName": "ClimateTech",
     "id": 6,
-    "description": "Real-time weather updates and forecasts.",
+    "description": "Real-time weather updates and forecasts. Get alerts for severe weather conditions. Check hourly, daily, and weekly forecasts. Visualize weather with interactive maps. Save locations for quick access. Monitor temperature, humidity, and wind speed.",
     "size": 25,
     "reviews": 1400,
     "ratingAvg": 4.0,
     "downloads": "6M",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 350 },
+      { "name": "5 star", "count": 410 },
       { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 410 }
+      { "name": "3 star", "count": 350 },
+      { "name": "2 star", "count": 90 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -112,17 +112,17 @@
     "title": "TravelMate",
     "companyName": "Adventure Co.",
     "id": 7,
-    "description": "Plan your trips and discover amazing places.",
+    "description": "Plan your trips and discover amazing places. Find hotels, flights, and activities. Get personalized recommendations. Create itineraries for hassle-free travel. Share travel plans with friends. Access offline maps for navigation.",
     "size": 70,
     "reviews": 2000,
     "ratingAvg": 4.7,
     "downloads": "12M",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 150 },
+      { "name": "5 star", "count": 1180 },
       { "name": "4 star", "count": 600 },
-      { "name": "5 star", "count": 1180 }
+      { "name": "3 star", "count": 150 },
+      { "name": "2 star", "count": 30 },
+      { "name": "1 star", "count": 40 }
     ]
   },
   {
@@ -130,17 +130,17 @@
     "title": "MeditateMind",
     "companyName": "ZenApps",
     "id": 8,
-    "description": "Guided meditation and mindfulness exercises.",
+    "description": "Guided meditation and mindfulness exercises. Reduce stress and anxiety effectively. Track your meditation streaks. Set reminders for daily practice. Access calming music and nature sounds. Learn breathing techniques for relaxation.",
     "size": 40,
     "reviews": 1100,
     "ratingAvg": 4.5,
     "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 80 },
+      { "name": "5 star", "count": 625 },
       { "name": "4 star", "count": 350 },
-      { "name": "5 star", "count": 625 }
+      { "name": "3 star", "count": 80 },
+      { "name": "2 star", "count": 20 },
+      { "name": "1 star", "count": 25 }
     ]
   },
   {
@@ -148,17 +148,17 @@
     "title": "RecipeBox",
     "companyName": "Foodie Labs",
     "id": 9,
-    "description": "Find and save your favorite recipes easily.",
+    "description": "Find and save your favorite recipes easily. Browse by cuisine or ingredients. Create shopping lists from recipes. Share recipes with friends. Save your own custom recipes. Get daily cooking inspiration and tips.",
     "size": 50,
     "reviews": 950,
     "ratingAvg": 4.2,
     "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 40 },
-      { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 120 },
+      { "name": "5 star", "count": 460 },
       { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 460 }
+      { "name": "3 star", "count": 120 },
+      { "name": "2 star", "count": 30 },
+      { "name": "1 star", "count": 40 }
     ]
   },
   {
@@ -166,17 +166,17 @@
     "title": "NewsFlash",
     "companyName": "MediaTech",
     "id": 10,
-    "description": "Stay updated with the latest news from around the world.",
+    "description": "Stay updated with the latest news from around the world. Customize your news feed. Receive breaking news alerts. Save articles to read later. Share news with friends. Access news offline with saved articles.",
     "size": 30,
     "reviews": 2200,
     "ratingAvg": 4.1,
     "downloads": "11M",
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 500 },
+      { "name": "5 star", "count": 840 },
       { "name": "4 star", "count": 650 },
-      { "name": "5 star", "count": 840 }
+      { "name": "3 star", "count": 500 },
+      { "name": "2 star", "count": 90 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
@@ -184,17 +184,17 @@
     "title": "MusicWave",
     "companyName": "SoundLabs",
     "id": 11,
-    "description": "Stream your favorite songs and playlists anytime.",
+    "description": "Stream your favorite songs and playlists anytime. Create your own playlists. Discover new music daily. Listen offline with downloads. Share music with friends. Access curated playlists for every mood.",
     "size": 90,
     "reviews": 3300,
     "ratingAvg": 4.6,
     "downloads": "20M",
     "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 60 },
-      { "name": "3 star", "count": 400 },
+      { "name": "5 star", "count": 1860 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 1860 }
+      { "name": "3 star", "count": 400 },
+      { "name": "2 star", "count": 60 },
+      { "name": "1 star", "count": 80 }
     ]
   },
   {
@@ -202,17 +202,17 @@
     "title": "ShopEase",
     "companyName": "Ecom Solutions",
     "id": 12,
-    "description": "Your one-stop online shopping app.",
+    "description": "Your one-stop online shopping app. Browse products easily. Track orders and deliveries. Get personalized recommendations. Save favorite items for later. Enjoy exclusive deals and discounts.",
     "size": 75,
     "reviews": 2800,
     "ratingAvg": 4.3,
     "downloads": "13M",
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 500 },
+      { "name": "5 star", "count": 1310 },
       { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1310 }
+      { "name": "3 star", "count": 500 },
+      { "name": "2 star", "count": 90 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
@@ -220,17 +220,17 @@
     "title": "CryptoTrack",
     "companyName": "FinTech Innovations",
     "id": 13,
-    "description": "Track cryptocurrency prices and market trends in real-time.",
+    "description": "Track cryptocurrency prices and market trends in real-time. Receive alerts for price changes. Analyze portfolio performance. Access historical charts. Learn crypto basics with guides. Securely connect your wallets.",
     "size": 65,
     "reviews": 1600,
     "ratingAvg": 4.4,
     "downloads": "8M",
     "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 40 },
-      { "name": "3 star", "count": 200 },
+      { "name": "5 star", "count": 860 },
       { "name": "4 star", "count": 450 },
-      { "name": "5 star", "count": 860 }
+      { "name": "3 star", "count": 200 },
+      { "name": "2 star", "count": 40 },
+      { "name": "1 star", "count": 50 }
     ]
   },
   {
@@ -238,17 +238,17 @@
     "title": "FitMeal",
     "companyName": "HealthTech",
     "id": 14,
-    "description": "Personalized meal plans to reach your fitness goals.",
+    "description": "Personalized meal plans to reach your fitness goals. Track calories and macros. Get healthy recipe suggestions. Plan meals for the week. Receive reminders for meals. Sync diet plans with fitness apps.",
     "size": 50,
     "reviews": 1250,
     "ratingAvg": 4.5,
     "downloads": "6M",
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 100 },
+      { "name": "5 star", "count": 700 },
       { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 700 }
+      { "name": "3 star", "count": 100 },
+      { "name": "2 star", "count": 20 },
+      { "name": "1 star", "count": 30 }
     ]
   },
   {
@@ -256,17 +256,17 @@
     "title": "DailyQuotes",
     "companyName": "InspireTech",
     "id": 15,
-    "description": "Get daily motivational and inspirational quotes.",
+    "description": "Get daily motivational and inspirational quotes. Share quotes on social media. Save your favorite quotes. Set reminders for daily inspiration. Explore quotes by category. Discover authors and famous personalities.",
     "size": 20,
     "reviews": 800,
     "ratingAvg": 4.2,
     "downloads": "4M",
     "ratings": [
-      { "name": "1 star", "count": 25 },
-      { "name": "2 star", "count": 15 },
-      { "name": "3 star", "count": 100 },
+      { "name": "5 star", "count": 410 },
       { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 410 }
+      { "name": "3 star", "count": 100 },
+      { "name": "2 star", "count": 15 },
+      { "name": "1 star", "count": 25 }
     ]
   },
   {
@@ -274,17 +274,17 @@
     "title": "SleepWell",
     "companyName": "WellnessTech",
     "id": 16,
-    "description": "Track and improve your sleep patterns for better health.",
+    "description": "Track and improve your sleep patterns for better health. Monitor sleep cycles and quality. Get personalized tips to improve rest. Set bedtime reminders. Access soothing sounds to fall asleep faster. Track sleep trends over time.",
     "size": 30,
     "reviews": 950,
     "ratingAvg": 4.3,
     "downloads": "5M",
     "ratings": [
-      { "name": "1 star", "count": 30 },
-      { "name": "2 star", "count": 20 },
-      { "name": "3 star", "count": 120 },
+      { "name": "5 star", "count": 480 },
       { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 480 }
+      { "name": "3 star", "count": 120 },
+      { "name": "2 star", "count": 20 },
+      { "name": "1 star", "count": 30 }
     ]
   }
 ]

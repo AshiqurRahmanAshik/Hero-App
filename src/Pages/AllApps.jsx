@@ -8,7 +8,7 @@ const AllApps = () => {
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
   const searchedApps = term
-    ? apps.filter((app) => app.companyName.toLowerCase().includes(term))
+    ? apps.filter((app) => app.title.toLowerCase().includes(term))
     : apps;
   if (!searchedApps.length) return <NoAppFound />;
   return (

@@ -6,14 +6,8 @@ import { MdReviews } from "react-icons/md";
 import {
   Area,
   Bar,
-  BarChart,
-  CartesianGrid,
   ComposedChart,
-  Legend,
-  Line,
-  Rectangle,
   ResponsiveContainer,
-  Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
@@ -44,7 +38,7 @@ const AppDetails = () => {
 
   return (
     <div className="w-11/12 mx-auto py-10">
-      <div className="flex flex-col md:flex-row items-center gap-10 bg-white shadow-md rounded-2xl p-6">
+      <div className="flex flex-col md:flex-row items-center gap-10 shadow-sm rounded-2xl p-6">
         <div className="w-48 flex-shrink-0">
           <img className="w-full rounded-xl" src={image} alt={title} />
         </div>
@@ -86,14 +80,9 @@ const AppDetails = () => {
       </div>
       <div className="py-10">
         <h3 className="font-bold text-xl py-2">Ratings</h3>
-        <div className="shadow-sm">
+        <div className="shadow-sm rounded-2xl">
           <ResponsiveContainer width="100%" height={300}>
-            <ComposedChart
-              layout="vertical"
-              width={500}
-              height={400}
-              data={ratings}
-            >
+            <ComposedChart layout="vertical" data={ratings}>
               <XAxis type="number" />
               <YAxis dataKey="name" type="category" />
               <Bar dataKey="count" barSize={20} fill="#FF8811" />
@@ -102,7 +91,7 @@ const AppDetails = () => {
         </div>
       </div>
       <div className="py-10">
-        <h2 className="font-bold">Description</h2>
+        <h2 className="font-bold text-xl">Description</h2>
         <p>{description}</p>
       </div>
     </div>
