@@ -33,6 +33,12 @@ const InstallApp = () => {
 
   return (
     <div className="space-y-6 w-11/12 mx-auto py-10">
+      <div className="text-center pt-5 space-y-1">
+        <h3 className="text-3xl font-bold">Your Installed Apps</h3>
+        <p className="text-slate-600">
+          Explore All Trending Apps on the Market developed by us.
+        </p>
+      </div>
       <div className="flex justify-between py-5 items-center">
         <h1 className="text-xl font-semibold">
           <span className="">{wishlist.length} Apps Found.</span>

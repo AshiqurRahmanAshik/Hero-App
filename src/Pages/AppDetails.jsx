@@ -106,7 +106,7 @@ const AppDetails = () => {
             disabled={isDisabled}
             className={`mt-6 font-semibold px-6 py-2 rounded-lg ${
               isDisabled
-                ? "bg-gray-400 cursor-not-allowed"
+                ? "bg-red-400 text-white cursor-not-allowed"
                 : "bg-[#00D390] hover:bg-[#05b57a] text-white"
             }`}
           >
