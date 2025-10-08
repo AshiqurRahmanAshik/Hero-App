@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useApps from "./../Hooks/useApps";
 import { FaDownload, FaRegStar } from "react-icons/fa";
@@ -17,10 +17,19 @@ import LoadingSpinner from "../Components/LoadingSpinner";
 const AppDetails = () => {
   const { id } = useParams();
   const [install, setInstall] = useState("Install Now");
+  const [isDisabled, setIsDisabled] = useState(false);
   const { apps, loading } = useApps();
 
   const findApp = apps?.find((app) => app.id === Number(id));
-  console.log(findApp);
+
+  useEffect(() => {
+    const existingList = JSON.parse(localStorage.getItem("wishlist")) || [];
+    const isAlreadyInstalled = existingList.some((p) => p.id === Number(id));
+    if (isAlreadyInstalled) {
+      setInstall("Installed");
+      setIsDisabled(true);
+    }
+  }, [id]);
 
   if (loading) return <LoadingSpinner />;
   if (!findApp) return <AppNotFound />;
@@ -35,21 +44,26 @@ const AppDetails = () => {
     description,
     ratings,
   } = findApp;
+
   const handleInstallBtn = () => {
-    setInstall("Installed");
-    const existingList = JSON.parse(localStorage.getItem("wishlist"));
-    let updatedList = [];
-    if (existingList) {
-      const isDuplicate = existingList.some((p) => p.id === findApp.id);
-      isDuplicate
-        ? toast(`${title} is already added`)
-        : toast(`${title} is installed successfully.`);
-      updatedList = [...existingList, findApp];
-    } else {
-      updatedList.push(findApp);
+    const existingList = JSON.parse(localStorage.getItem("wishlist")) || [];
+    const isDuplicate = existingList.some((p) => p.id === findApp.id);
+
+    if (isDuplicate) {
+      toast(`${title} is already installed.`);
+      setInstall("Installed");
+      setIsDisabled(true);
+      return; 
     }
+
+    const updatedList = [...existingList, findApp];
     localStorage.setItem("wishlist", JSON.stringify(updatedList));
+
+    toast(`${title} installed successfully.`);
+    setInstall("Installed");
+    setIsDisabled(true);
   };
+
   return (
     <div className="w-11/12 mx-auto py-10">
       <div className="flex flex-col md:flex-row items-center gap-10 shadow-sm rounded-2xl p-6">
@@ -89,12 +103,18 @@ const AppDetails = () => {
 
           <button
             onClick={handleInstallBtn}
-            className="mt-6 bg-[#00D390] hover:bg-[#05b57a] text-white font-semibold px-6 py-2 rounded-lg"
+            disabled={isDisabled}
+            className={`mt-6 font-semibold px-6 py-2 rounded-lg ${
+              isDisabled
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-[#00D390] hover:bg-[#05b57a] text-white"
+            }`}
           >
             {install}
           </button>
         </div>
       </div>
+
       <div className="py-10">
         <h3 className="font-bold text-xl py-2">Ratings</h3>
         <div className="shadow-sm rounded-2xl">
@@ -107,12 +127,15 @@ const AppDetails = () => {
           </ResponsiveContainer>
         </div>
       </div>
+
       <div className="py-10">
         <h2 className="font-bold text-xl">Description</h2>
         <p>{description}</p>
       </div>
+
       <ToastContainer />
     </div>
   );
 };
+
 export default AppDetails;
