@@ -3,6 +3,7 @@ import useApps from "../Hooks/useApps";
 import LoadingSpinner from "../Components/LoadingSpinner";
 import { FaDownload, FaRegStar } from "react-icons/fa";
 import { MdReviews } from "react-icons/md";
+import { toast, ToastContainer } from "react-toastify";
 
 const InstallApp = () => {
   const { loading } = useApps();
@@ -13,10 +14,11 @@ const InstallApp = () => {
     setWishList(savedList);
   }, []);
 
-  const handleRemove = (id) => {
+  const handleRemove = (id, title) => {
     const updatedList = wishlist.filter((item) => item.id !== id);
     setWishList(updatedList);
     localStorage.setItem("wishlist", JSON.stringify(updatedList));
+    toast(`${title} is uninstalled`);
   };
 
   const handleSort = (value) => {
@@ -96,7 +98,7 @@ const InstallApp = () => {
 
               <div className="pr-4 flex items-center gap-3">
                 <button
-                  onClick={() => handleRemove(p.id)}
+                  onClick={() => handleRemove(p.id, p.title)}
                   className="btn btn-outline btn-sm text-white bg-[#00D390]"
                 >
                   Uninstall
@@ -110,6 +112,7 @@ const InstallApp = () => {
           </p>
         )}
       </div>
+      <ToastContainer />
     </div>
   );
 };
