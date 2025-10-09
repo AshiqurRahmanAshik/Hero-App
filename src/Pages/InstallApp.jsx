@@ -25,9 +25,9 @@ const InstallApp = () => {
     setSortOption(value);
     let sortedList = [...wishlist];
 
-    if (value === "price-asc") {
+    if (value === "rating-asc") {
       sortedList.sort((a, b) => a.ratingAvg - b.ratingAvg);
-    } else if (value === "price-desc") {
+    } else if (value === "rating-desc") {
       sortedList.sort((a, b) => b.ratingAvg - a.ratingAvg);
     }
 
@@ -55,8 +55,8 @@ const InstallApp = () => {
             onChange={(e) => handleSort(e.target.value)}
           >
             <option value="none">Sort By Rating</option>
-            <option value="price-asc">Low → High</option>
-            <option value="price-desc">High → Low</option>
+            <option value="rating-asc">Low → High</option>
+            <option value="rating-desc">High → Low</option>
           </select>
         </label>
       </div>
