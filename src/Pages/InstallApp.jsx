@@ -26,9 +26,9 @@ const InstallApp = () => {
     let sortedList = [...wishlist];
 
     if (value === "price-asc") {
-      sortedList.sort((a, b) => a.size - b.size);
+      sortedList.sort((a, b) => a.ratingAvg - b.ratingAvg);
     } else if (value === "price-desc") {
-      sortedList.sort((a, b) => b.size - a.size);
+      sortedList.sort((a, b) => b.ratingAvg - a.ratingAvg);
     }
 
     setWishList(sortedList);
@@ -54,7 +54,7 @@ const InstallApp = () => {
             value={sortOption}
             onChange={(e) => handleSort(e.target.value)}
           >
-            <option value="none">Sort By File Size</option>
+            <option value="none">Sort By Rating</option>
             <option value="price-asc">Low → High</option>
             <option value="price-desc">High → Low</option>
           </select>
@@ -76,19 +76,19 @@ const InstallApp = () => {
                   />
                 </figure>
                 <div className="card-body">
-                  <h3 className="card-title">{p.title}</h3>
+                  <h3 className="card-title text-2xl">{p.title}</h3>
                   <p className="text-base-content/70">{p.companyName}</p>
                   <div className="flex gap-5">
-                    <p className="flex items-center justify-center gap-1">
-                      <FaDownload className="text-[#9F62F2]" />
-                      {p.size}
-                    </p>
-                    <p className="flex items-center justify-center gap-1">
-                      <FaRegStar className="text-[#9F62F2]" />
+                    <p className="flex items-center justify-center gap-1 text-xl text-slate-700 ">
+                      <FaRegStar fill="orange" size={28} />
                       {p.ratingAvg}
                     </p>
-                    <p className="flex items-center justify-center gap-1">
-                      <MdReviews className="text-[#00D390]" />
+                    <p className="flex items-center justify-center gap-1 text-xl text-slate-700 ">
+                      <FaDownload className="text-[#9F62F2]" size={28} />
+                      {p.size}
+                    </p>
+                    <p className="flex items-center justify-center gap-1 text-xl text-slate-700 ">
+                      <MdReviews className="text-[#00D390]" size={28} />
                       {p.reviews}
                     </p>
                   </div>
