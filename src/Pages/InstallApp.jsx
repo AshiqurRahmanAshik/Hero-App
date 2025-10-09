@@ -65,7 +65,7 @@ const InstallApp = () => {
           wishlist.map((p) => (
             <div
               key={p.id}
-              className="card card-side bg-base-100 shadow flex justify-between items-center"
+              className="card card-side bg-base-100 shadow flex flex-col md:flex-row md:justify-between md:items-center"
             >
               <div className="flex items-center p-2">
                 <figure>
@@ -95,7 +95,7 @@ const InstallApp = () => {
                 </div>
               </div>
 
-              <div className="pr-4 flex items-center gap-3">
+              <div className="pr-4 flex items-center justify-center gap-3 pb-5 md:pb-0">
                 <button
                   onClick={() => handleRemove(p.id, p.title)}
                   className="btn btn-outline btn-sm text-white bg-[#00D390]"
