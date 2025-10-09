@@ -17,25 +17,28 @@ const Hero = () => {
             Apps
           </h1>
           <p className="text-slate-800">
-            At HERO.IO, we craft innovative apps designed to make everyday life
-            simpler, smarter, and more exciting. <br />
-            Our goal is to turn your ideas into digital experiences that truly
-            make an impact.
+            <i>
+              {" "}
+              At HERO.IO, we craft innovative apps designed to make everyday
+              life simpler, smarter, and more exciting. <br />
+              Our goal is to turn your ideas into digital experiences that truly
+              make an impact.
+            </i>
           </p>
         </div>
-        <div className="flex gap-5 justify-center py-3 md:py-5">
+        <div className="flex gap-5 justify-center py-3 md:py-5 items-center ">
           <Link
             to="https://play.google.com/store/apps?hl=en"
-            className="btn btn-outline"
+            className="btn btn-outline bg-white text-xl text-slate-800"
           >
-            <BiLogoPlayStore />
+            <BiLogoPlayStore style={{ color: "red" }} />
             Google Play
           </Link>
           <Link
             to="https://play.google.com/store/apps?hl=en"
-            className="btn btn-outline"
+            className="btn btn-outline bg-white text-xl text-slate-800"
           >
-            <FaAppStoreIos />
+            <FaAppStoreIos style={{ color: "blue" }} />
             App Store
           </Link>
         </div>

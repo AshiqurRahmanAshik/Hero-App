@@ -60,7 +60,6 @@ const InstallApp = () => {
           </select>
         </label>
       </div>
-
       <div className="space-y-3">
         {wishlist.length > 0 ? (
           wishlist.map((p) => (

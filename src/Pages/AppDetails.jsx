@@ -43,6 +43,7 @@ const AppDetails = () => {
     reviews,
     description,
     ratings,
+    size,
   } = findApp;
 
   const handleInstallBtn = () => {
@@ -53,7 +54,7 @@ const AppDetails = () => {
       toast(`${title} is already installed.`);
       setInstall("Installed");
       setIsDisabled(true);
-      return; 
+      return;
     }
 
     const updatedList = [...existingList, findApp];
@@ -110,7 +111,7 @@ const AppDetails = () => {
                 : "bg-[#00D390] hover:bg-[#05b57a] text-white"
             }`}
           >
-            {install}
+            {isDisabled ? install : `${install} (${size}MB)`}
           </button>
         </div>
       </div>
