@@ -4,16 +4,27 @@
 
 **AppHub** is a responsive web application designed to showcase mobile applications in a clean, user-friendly interface. Users can explore, search, and install apps with ease. The project focuses on interactivity, responsive design, and data visualization using JSON and charts.
 
-Key Features:
+## Setup Steps
+1. Clone the repository or download the ZIP 
+2. Open your terminal and run the following command:
+   ```bash
+   git clone https://github.com/AshiqurRahmanAshik/Hero-App.git
+3. Open `index.html` in any modern web browser
 
-- Responsive design for all devices.
-- Explore apps with search, filters, and live updates.
-- View app details including ratings, reviews, downloads, and description.
-- Install apps with localStorage tracking and dynamic UI updates.
-- Sort apps by size.
-- Visualize app reviews using Recharts.
-- Custom error page for invalid routes and loading animations during navigation and operations.
-- Fully functional My Installation page to manage installed apps.
+👁️ [View Live Project](https://heroo-app.netlify.app/)
+
+
+Project Glimpse:
+### Home Page
+<img width="1346" height="621" alt="image" src="https://github.com/user-attachments/assets/cf8b767e-3209-4c35-aea1-7ee1a372fd7b" />
+
+### Trending App Section
+<img width="1333" height="557" alt="image" src="https://github.com/user-attachments/assets/c5013341-5b54-4f09-9f36-f83d97f1eef5" />
+
+### App Search Section
+<img width="1310" height="547" alt="image" src="https://github.com/user-attachments/assets/04817d9c-c362-431e-8bfb-adf263ba9f95" />
+
+
 
 ## Technologies Used
 
@@ -23,32 +34,8 @@ Key Features:
 - **Charts:** Recharts
 - **Notifications:** React Toastify
 - **Data Storage:** LocalStorage
-- **Version Control:** GitHub
 - **Design Reference:** Figma
 
-## Project Structure
-
-- **Home Page**
-  - Banner with App Store and Play Store buttons
-  - States section with summary cards
-  - Top Apps section showing popular apps
-- **All Apps Page**
-  - Searchable and filterable list of all apps
-  - Displays total app count
-  - Live search functionality with "No App Found" message
-- **App Details Page**
-  - App information including title, image, downloads, and rating
-  - Install button with localStorage support
-  - Review chart visualization
-  - App description section
-- **My Installation Page**
-  - Displays all installed apps
-  - Uninstall functionality with localStorage removal and Toast notification
-  - Sort apps by downloads (High-Low / Low-High)
-- **Error Page**
-  - Custom page for invalid routes
-- **Loading Animation**
-  - Displayed during page navigation and search operations
 
 ## What I Learned from This Project
 
